@@ -1,0 +1,43 @@
+{
+  "plugin_filter": {
+    "url": "https://raw.githubusercontent.com/mg979/dmenu-extended-plugins/master/plugin_filter.py",
+    "desc": "Filter your dmenu-indexed files.",
+    "sha1sum": "528c4865431e96229e94b52407dfd01a677ff8bb",
+    "sha256sum": "7af6eb7ff570cc2960c466c7a123bd292359e60adbf7983f04743837d055b6cf",
+    "min_version": 0.0,
+    "dependencies": {
+      "python": [
+        "sys",
+        "codecs",
+        "locale",
+        "os"
+      ]
+    }
+  },
+  "plugin_projects": {
+    "url": "https://raw.githubusercontent.com/mg979/dmenu-extended-plugins/master/plugin_projects.py",
+    "desc": "Load projects by executing (multiple) commands.",
+    "sha1sum": "c387ce26a49b291a1b6114186d32d106fd2a76cc",
+    "sha256sum": "25ee2c6929fb00b94855ce60b163c038910934e8df7ca41cf43136f3e187bf1c",
+    "min_version": 0.0,
+    "dependencies": {
+      "python": [
+        "sys",
+        "os"
+      ]
+    }
+  },
+  "plugin_sheets": {
+    "url": "https://raw.githubusercontent.com/mg979/dmenu-extended-plugins/master/plugin_sheets.py",
+    "desc": "Browse recursively directories with relative paths.",
+    "sha1sum": "c9bb4265c7bcd897e3d4f6ee99ef6edc284134b9",
+    "sha256sum": "e4794575a78c62e3ef79dfeaeedae45200b36506762aa1d841c8c4221c1d7c09",
+    "min_version": 0.0,
+    "dependencies": {
+      "python": [
+        "sys",
+        "os"
+      ]
+    }
+  }
+}
